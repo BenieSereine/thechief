@@ -1,0 +1,54 @@
+body{
+    background-image: url('/src/images/home.jpg');
+    background-size:  cover;
+    background-position:center center;
+}
+
+.container{
+    height: 550px;
+    width: 800px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding:0 2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden; 
+    color:#080707;
+    background: linear-gradient(180deg, rgba(170, 120, 56, 0.459) 0%, rgba(151, 124, 65, 0.986) 100%, rgb(168, 137, 69) 100%);
+}
+.h{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding:0 2em;
+    padding-top: 50px;
+    font-size: 50px;
+    padding: inherit;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    padding:0 2em;
+}
+.nav-lank{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: center;
+    margin-right: 2rem;
+    padding-top: 30px;
+}
+.nav-home{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
