@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
+  }
+footer{
+    background-color: rgb(12, 12, 12) ;
+    color: white;
+    text-align: justify;
+}
+footer a:hover{
+    text-decoration: none;
+}
+hr{
+    border-color: white;
+}
+.contact li{
+    display: inline-block;
+    margin-right:20px ;
+}
+.business li{
+        text-decoration: none ;
+        color: white ;
+        margin-top: 10px;
+        background-color:rgb(88, 85, 85) ;
+        padding: 5px;
+        border-left:thick solid white;   
+}
+.business li a{
+    color: white;
+    
+}
+.business :hover{
+    
+    background-color: rgb(168, 166, 163);;
+    
+}
+.title{
+    
+    color: #f0732b;
+}
+.explore a{
+    color: rgb(168, 166, 163);
+}
+.explore a:hover{
+    color: white;
+}
+
+.contact p a{
+    color: rgb(168, 166, 163);
+}
+.contact a:hover{
+    color: white;
+}
+.terms li a{
+    color: rgb(168, 166, 163);
+      
+}
+
+@media screen and (min-max:768px){
+    
+}
